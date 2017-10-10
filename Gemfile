@@ -5,10 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'bootstrap', '~> 4.0.0.beta'
+#gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'devise'
-
+gem 'carrierwave'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
